@@ -1,0 +1,20 @@
+This is just a little documentation of what the project is:
+
+first all the libraries used in this project:
+
+install these within virtual env or globally
+
+- pip install opencv-python mediapipe albumentations matplotlib tensorflow mediapipe scikit-learn sklearn pydot gTTS googletrans==4.0.0-rc1 pygame pyttsx3
+
+- graphViz was used just used to display a visual representation of the model layers.
+  Which can be found for download here: https://graphviz.org/download/
+
+
+
+if you are wanting to run the project yourself, please just run the file named 'RealTimeTest', the other files are only for collecting and training data
+
+if you want to download the dataset, it is available at : 
+
+
+This project is just a simple face emotion detection using googles mediapipe and an lstm neural network. The reason I used videos to collect the data was because for my dissertation i did machine learning to detect sign language. I wanted to merge both of these projects together to create a sign language detection system that also displays the users emotions. As i used videos to collect the data for my sign language system, i thought it would be the easiest approach to use a similar method for the face emotion system, which makes the merge of these projects much easier.
+
